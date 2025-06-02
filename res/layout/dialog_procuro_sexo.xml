@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup
+        android:id="@id/radioGroupSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@id/radioSexoHomem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/men" />
+        <RadioButton
+            android:id="@id/radioSexoMulher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/women" />
+        <RadioButton
+            android:id="@id/radioSexoQualquer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anyone" />
+    </RadioGroup>
+</LinearLayout>

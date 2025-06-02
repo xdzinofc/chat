@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@id/edittext"
+            android:padding="10.0dip"
+            android:paddingRight="5.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nick"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="20"
+            android:layout_weight="1.0" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="27.0dip"
+            android:layout_height="27.0dip">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/image_nick_approved"
+                android:layout_width="25.0dip"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_done"
+                app:tint="@color/colorTyping" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/image_nick_reproved"
+                android:visibility="gone"
+                android:layout_width="25.0dip"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_close"
+                app:tint="@color/crimson" />
+            <ProgressBar
+                android:layout_gravity="center_vertical"
+                android:id="@id/loading_nick"
+                android:visibility="gone"
+                android:layout_width="25.0dip"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:padding="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nick_warning" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="end"
+    android:background="@drawable/statelist_item_background"
+    android:paddingBottom="1.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/bubble"
+        android:background="@drawable/balloon_outgoing_normal"
+        android:layout_width="220.0dip"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/message_image"
+            android:layout_width="196.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="4.0dip" />
+        <RelativeLayout
+            android:id="@id/uploadDownloadLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true">
+            <View
+                android:id="@id/bg_loading"
+                android:background="@drawable/circle_cancel_upload"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerInParent="true" />
+            <ProgressBar
+                android:theme="@style/AppTheme.WhiteAccent"
+                android:id="@id/loading"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_centerInParent="true" />
+            <ImageView
+                android:id="@id/cancel"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/ic_close"
+                app:tint="@color/white" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/actionLayout"
+            android:background="@drawable/backgroud_image_upload_message"
+            android:padding="5.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_file_upload"
+                app:tint="@color/white" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/try_again" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/background_black_gradation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.0dip"
+                android:paddingStart="10.0dip"
+                android:layout_marginEnd="4.0dip">
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@id/time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17:10"
+                    android:layout_marginEnd="2.0dip"
+                    style="@style/chat_timings" />
+                <ImageView
+                    android:id="@id/user_reply_status"
+                    android:visibility="visible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    app:srcCompat="@drawable/ic_done_all"
+                    app:tint="@color/grey_800" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

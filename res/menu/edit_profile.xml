@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_cached_white"
+        android:id="@id/action_invert"
+        android:title="@string/action_invert"
+        myapp:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/ic_error_white"
+        android:id="@id/action_rules"
+        android:title="@string/action_rules"
+        myapp:showAsAction="never" />
+</menu>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="al_exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/al_exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="al_exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="dias">
+        <item>1 day</item>
+        <item>7 days</item>
+        <item>15 days</item>
+        <item>30 days</item>
+    </string-array>
+    <string-array name="dias_values">
+        <item>1</item>
+        <item>7</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="idades">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="locale_names">
+        <item>English, US</item>
+        <item>German, Germany</item>
+        <item>Chinese, PRC</item>
+        <item>Chinese, Taiwan</item>
+        <item>Czech, Czech Republic</item>
+        <item>Dutch, Belgium</item>
+        <item>Dutch, Netherlands</item>
+        <item>English, Australia</item>
+        <item>English, Britain</item>
+        <item>English, Canada</item>
+        <item>English, New Zealand</item>
+        <item>English, Singapore</item>
+        <item>French, Belgium</item>
+        <item>French, Canada</item>
+        <item>French, France</item>
+        <item>French, Switzerland</item>
+        <item>German, Austria</item>
+        <item>German, Liechtenstein</item>
+        <item>German, Switzerland</item>
+        <item>Italian, Italy</item>
+        <item>Italian, Switzerland</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Polish</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Arabic, Egypt</item>
+        <item>Arabic, Israel</item>
+        <item>Bulgarian, Bulgaria</item>
+        <item>Catalan, Spain</item>
+        <item>Croatian, Croatia</item>
+        <item>Danish, Denmark</item>
+        <item>English, India</item>
+        <item>English, Ireland</item>
+        <item>English, Zimbabwe</item>
+        <item>Finnish, Finland</item>
+        <item>Greek, Greece</item>
+        <item>Hebrew, Israel</item>
+        <item>Hindi, India</item>
+        <item>Hungarian, Hungary</item>
+        <item>Indonesian, Indonesia</item>
+        <item>Latvian, Latvia</item>
+        <item>Lithuanian, Lithuania</item>
+        <item>Norwegian-Bokmol, Norway</item>
+        <item>Portuguese, Brazil</item>
+        <item>Portuguese, Portugal</item>
+        <item>Romanian, Romania</item>
+        <item>Serbian</item>
+        <item>Slovak, Slovakia</item>
+        <item>Slovenian, Slovenia</item>
+        <item>Spanish, US</item>
+        <item>Swedish, Sweden</item>
+        <item>Tagalog, Philippines</item>
+        <item>Thai, Thailand</item>
+        <item>Turkish, Turkey</item>
+        <item>Ukrainian, Ukraine</item>
+        <item>Vietnamese, Vietnam</item>
+    </string-array>
+    <string-array name="locale_values">
+        <item>en_US</item>
+        <item>de_DE</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>cs_CZ</item>
+        <item>nl_BE</item>
+        <item>nl_NL</item>
+        <item>en_AU</item>
+        <item>en_GB</item>
+        <item>en_CA</item>
+        <item>en_NZ</item>
+        <item>en_SG</item>
+        <item>fr_BE</item>
+        <item>fr_CA</item>
+        <item>fr_FR</item>
+        <item>fr_CH</item>
+        <item>de_AT</item>
+        <item>de_LI</item>
+        <item>de_CH</item>
+        <item>it_IT</item>
+        <item>it_CH</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>pl_PL</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>ar_EG</item>
+        <item>ar_IL</item>
+        <item>bg_BG</item>
+        <item>ca_ES</item>
+        <item>hr_HR</item>
+        <item>da_DK</item>
+        <item>en_IN</item>
+        <item>en_IE</item>
+        <item>en_ZA</item>
+        <item>fi_FI</item>
+        <item>el_GR</item>
+        <item>iw_IL</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>nb_NO</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro_RO</item>
+        <item>sr_RS</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>es_US</item>
+        <item>sv_SE</item>
+        <item>tl_PH</item>
+        <item>th_TH</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+        <item>vi_VN</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>System Default</item>
+    </string-array>
+</resources>

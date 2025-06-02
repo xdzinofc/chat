@@ -1,0 +1,59 @@
+.class public final Lcom/google/android/gms/internal/ads/zzeyb;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzhiv;
+
+
+# direct methods
+.method public static zza(Lcom/google/android/gms/internal/ads/zzexu;)Landroid/content/pm/PackageInfo;
+    .locals 0
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzexu;->zzb()Landroid/content/pm/PackageInfo;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method

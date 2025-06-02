@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/drawerEditProfile"
+    android:background="@color/colorNavHeader"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="100.0dip"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/layoutImageProfile"
+        android:layout_width="72.0dip"
+        android:layout_height="72.0dip"
+        android:layout_margin="10.0dip"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@id/imageProfile"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/default_avatar_round"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/layoutImageProfile"
+        android:layout_toEndOf="@id/layoutImageProfile">
+        <com.vanniktech.emoji.EmojiTextView
+            android:textSize="16.0sp"
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:id="@id/textNick"
+            android:paddingBottom="3.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anonymous"
+            android:maxLines="1" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@id/textAgeSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homem - 18 anos"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+    <ImageView
+        android:background="?android:actionBarItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_settings_white"
+        app:tint="@color/colorNavHeaderText" />
+</RelativeLayout>

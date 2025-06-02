@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/new_messages_title_settings">
+        <CheckBoxPreference
+            android:title="@string/notification_setting"
+            android:key="prefNotificacao"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/new_messages_confirm_read"
+            android:key="prefReadReceipts"
+            android:summary="@string/new_messages_confirm_read_desc"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/new_messages_download"
+            android:key="prefDownload"
+            android:summary="@string/new_messages_download_audio"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:title="@string/always_accept_images_desc"
+            android:key="prefAllowImages"
+            android:summary="@string/always_accept_images"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/talks_title_settings">
+        <ListPreference
+            android:entries="@array/dias"
+            android:title="@string/talks_subtitle_settings"
+            android:key="prefTalkClean"
+            android:summary="@string/talks_summary_settings"
+            android:defaultValue="7"
+            android:entryValues="@array/dias_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/discovery_title_settings">
+        <CheckBoxPreference
+            android:title="@string/discovery_show_me_title_settings"
+            android:key="prefDiscoveryMe"
+            android:summary="@string/discovery_desc_title_settings"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/privacy_title_settings">
+        <CheckBoxPreference
+            android:title="@string/privacy_last_seen_subtitle"
+            android:key="prefLastSeen"
+            android:summary="@string/privacy_last_seen_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/my_account_title_settings">
+        <Preference
+            android:title="@string/delete_account_settings"
+            android:key="delete_account"
+            android:summary="@string/delete_account_desc_settings" />
+        <Preference
+            android:title="@string/logout_settings"
+            android:key="logout"
+            android:summary="@string/logout_desc_settings" />
+        <Preference
+            android:title="@string/privacy_terms"
+            android:key="terms" />
+    </PreferenceCategory>
+</PreferenceScreen>

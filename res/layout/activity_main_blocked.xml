@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/coloredBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ProgressBar
+            android:theme="@style/AppTheme.WhiteAccent"
+            android:id="@id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:progressBarStyle" />
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/loading" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@id/bannedContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip"
+                app:srcCompat="@drawable/ic_speech_bubble"
+                app:tint="@color/white" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@id/txtBlocked"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25.0dip"
+                android:text="@string/banned_until"
+                android:textAlignment="center" />
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@id/txtReasonDesc"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/banned_until_error"
+                android:textAlignment="center" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@id/txtBlocked3"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/banned_until_error"
+                android:textAlignment="center" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@id/txtBlockedId"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:textAlignment="center" />
+            <com.google.android.material.button.MaterialButton
+                android:textColor="@color/white"
+                android:id="@id/copy_icon_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copy"
+                android:inputType="textCapSentences"
+                app:strokeColor="@color/white"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <com.google.android.material.button.MaterialButton
+                android:textSize="12.0dip"
+                android:textColor="@color/white"
+                android:id="@id/delete_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_account_settings"
+                android:inputType="textCapSentences"
+                app:strokeColor="@color/white"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@id/txtBlocked2"
+                android:padding="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/banned_until_deactivate_content"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

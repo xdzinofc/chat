@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@id/remove_ads_loading"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/remove_ads_content"
+        android:background="@color/coloredBackground"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="70.0dip"
+            android:layout_height="70.0dip"
+            android:src="@drawable/noads"
+            app:tint="@color/white" />
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:text="@string/subscribe_title" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:text="@string/subscribe_desc"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <ScrollView
+        android:gravity="center"
+        android:id="@id/remove_ads_actions"
+        android:background="@color/background_default"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.5">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="24.0sp"
+                android:textColor="?android:textColorPrimary"
+                android:id="@id/remove_ads_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:text="-----" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@id/remove_ads_trial_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:text="@string/subscribe_trial"
+                android:textAlignment="center" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:theme="@style/AppTheme.RemoveAds"
+                android:textColor="@color/white"
+                android:id="@id/btn_remove_ads"
+                android:layout_width="fill_parent"
+                android:layout_height="55.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="50.0dip"
+                android:text="@string/btn_subscribe" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="20.0dip"
+                android:text="@string/subscribe_underline"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

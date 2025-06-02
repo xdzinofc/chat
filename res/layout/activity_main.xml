@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:background="@color/background_default"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4.0dip">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways" />
+            <com.google.android.material.tabs.TabLayout
+                android:id="@id/tabLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/white"
+                app:tabPaddingBottom="0.0dip"
+                app:tabPaddingTop="0.0dip"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextColor="@color/grey2" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.random.chat.app.util.view.FCViewPager
+            android:id="@id/viewPager"
+            android:paddingBottom="80.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <FrameLayout
+            android:layout_gravity="bottom|center"
+            android:id="@id/ad_view_container"
+            android:background="@color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="94.0dip"
+            android:layout_marginEnd="24.0dip"
+            app:backgroundTint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_search_white"
+            app:tint="@color/white" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_gravity="start"
+        android:id="@id/nav_view"
+        android:fitsSystemWindows="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:headerLayout="@layout/nav_header_main"
+        app:itemIconTint="@color/drawer_text_color"
+        app:itemTextColor="@color/drawer_text_color"
+        app:menu="@menu/navigation_drawer" />
+</androidx.drawerlayout.widget.DrawerLayout>

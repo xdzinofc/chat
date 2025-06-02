@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_favorite_border_white"
+        android:id="@id/action_add_favorite"
+        android:title="@string/action_add_favorite"
+        myapp:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_favorite_white"
+        android:id="@id/action_remove_favorite"
+        android:title="@string/action_remove_favorite"
+        myapp:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_attach_file_white"
+        android:id="@id/action_upload"
+        android:title="@string/send_image"
+        myapp:showAsAction="always" />
+    <item
+        android:id="@id/action_rules"
+        android:title="@string/info_profile"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/talk_details"
+        android:title="@string/talk_details"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_bg"
+        android:title="@string/change_background_title"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_accept_images"
+        android:title="@string/accept_images"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_clean"
+        android:title="@string/clean_messages"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_exit"
+        android:title="@string/delete_chat"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_report"
+        android:title="@string/report_profile"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_block"
+        android:title="@string/action_block"
+        myapp:showAsAction="never" />
+    <item
+        android:id="@id/action_unblock"
+        android:title="@string/action_unblock"
+        myapp:showAsAction="never" />
+</menu>

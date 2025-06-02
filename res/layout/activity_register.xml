@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/coloredBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton
+        android:id="@id/btn_more"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginTop="16.0dip"
+        android:src="@drawable/ic_more_vert_white"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16.0dip"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="70.0dip"
+            android:layout_height="70.0dip"
+            app:srcCompat="@drawable/ic_speech_bubble"
+            app:tint="@color/white" />
+        <TextView
+            android:textSize="18.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="@string/register_welcome" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:text="@string/register_line1" />
+        <View
+            android:id="@id/continue_space"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip" />
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@id/checkbox_inappropriate"
+            android:layout_width="320.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/register_inappropriate" />
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@id/checkbox_age"
+            android:layout_width="320.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/register_checkbox_age" />
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@id/checkbox_terms"
+            android:layout_width="320.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/register_checkbox_terms" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:theme="@style/AppTheme.FacebookButton"
+            android:textColor="@color/white"
+            android:id="@id/continue_facebook"
+            android:layout_width="270.0dip"
+            android:layout_height="55.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="@string/register_continue_facebook" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:theme="@style/AppTheme.GoogleButton"
+            android:textColor="@color/white"
+            android:id="@id/continue_google"
+            android:layout_width="270.0dip"
+            android:layout_height="55.0dip"
+            android:text="@string/register_continue_google" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:theme="@style/AppTheme.AnonymousButton"
+            android:textColor="@color/white"
+            android:id="@id/continue_anonymous"
+            android:layout_width="270.0dip"
+            android:layout_height="55.0dip"
+            android:text="@string/register_continue_anonymous" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:id="@id/dont_worry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_worry"
+            android:textAlignment="center" />
+        <com.facebook.login.widget.LoginButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/login_facebook"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_share"
+        android:layout_above="@id/terms_button"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:id="@id/terms_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/register_terms"
+        android:maxLines="2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/background_default"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="24.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:gravity="center_horizontal"
+            android:paddingLeft="50.0dip"
+            android:paddingTop="30.0dip"
+            android:paddingRight="50.0dip"
+            android:paddingBottom="20.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/before_talk_title"
+            android:textAlignment="center" />
+        <TextView
+            android:textColor="?android:textColorPrimary"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/before_talk_check"
+            android:textAlignment="center" />
+        <RelativeLayout
+            android:id="@id/clickPig"
+            android:background="@drawable/statelist_item_background"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="3.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="24.0sp"
+                        android:textColor="?android:textColorPrimary"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/before_talk_do_not_be_pig"
+                        android:textAlignment="center" />
+                    <ImageView
+                        android:layout_width="32.0dip"
+                        android:layout_height="32.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:src="@drawable/pig_face"
+                        android:scaleType="fitCenter"
+                        android:layout_marginStart="15.0dip" />
+                </LinearLayout>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/before_talk_behave_well"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <CheckBox
+                android:id="@id/checkBoxPig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View
+            android:background="#ffcccccc"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <RelativeLayout
+            android:id="@id/clickPerson"
+            android:background="@drawable/statelist_item_background"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="3.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="24.0sp"
+                        android:textColor="?android:textColorPrimary"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/before_talk_respect_others"
+                        android:textAlignment="center" />
+                    <ImageView
+                        android:layout_width="32.0dip"
+                        android:layout_height="32.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:src="@drawable/man_bowing_deeply"
+                        android:scaleType="fitCenter"
+                        android:layout_marginStart="15.0dip" />
+                </LinearLayout>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/before_talk_person_other_site"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <CheckBox
+                android:id="@id/checkBoxPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View
+            android:background="#ffcccccc"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <RelativeLayout
+            android:id="@id/clickFun"
+            android:background="@drawable/statelist_item_background"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="3.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="24.0sp"
+                        android:textColor="?android:textColorPrimary"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/before_talk_have_a_good_time"
+                        android:textAlignment="center" />
+                    <ImageView
+                        android:layout_width="32.0dip"
+                        android:layout_height="32.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:src="@drawable/party_popper"
+                        android:scaleType="fitCenter"
+                        android:layout_marginStart="15.0dip" />
+                </LinearLayout>
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/before_talk_life_is_short"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <CheckBox
+                android:id="@id/checkBoxFun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:id="@id/btn_go_talk"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginRight="50.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:text="@string/btn_talk"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/statelist_item_background"
+    android:paddingBottom="1.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/bubble"
+        android:background="@drawable/balloon_incoming_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20.0dip">
+        <com.vanniktech.emoji.EmojiTextView
+            android:autoLink="web"
+            android:id="@id/message_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="Rahul Agrawal is a good boy but he does not know whatvwerbw we rwe rew rewr ew rewrew rwe rwer  he wants."
+            android:layout_weight="1.0"
+            android:textIsSelectable="true"
+            android:paddingStart="10.0dip"
+            app:emojiSize="24.0sp"
+            style="@style/chat_text_message_style" />
+        <TextView
+            android:textColor="@color/gray"
+            android:layout_gravity="bottom"
+            android:id="@id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.0dip"
+            android:text="17:10"
+            android:maxLines="1"
+            android:layout_marginEnd="4.0dip"
+            style="@style/chat_timings" />
+    </LinearLayout>
+</LinearLayout>

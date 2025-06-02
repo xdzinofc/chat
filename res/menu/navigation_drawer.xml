@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@id/group_search"
+        android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_search_white"
+            android:title="@string/looking_for">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_wc_black"
+                    android:id="@id/nav_gender"
+                    android:title="@string/gender"
+                    app:actionLayout="@layout/nav_item_gender_layout" />
+                <item
+                    android:icon="@drawable/ic_date_range"
+                    android:id="@id/nav_age"
+                    android:title="@string/age_range"
+                    app:actionLayout="@layout/nav_item_age_range_layout" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@id/group_blocked"
+        android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_block_white"
+            android:id="@id/nav_blocked_list"
+            android:title="@string/action_blocked_list" />
+    </group>
+    <group
+        android:id="@id/group_settings"
+        android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_settings_white"
+            android:id="@id/nav_settings"
+            android:title="@string/action_settings" />
+    </group>
+</menu>

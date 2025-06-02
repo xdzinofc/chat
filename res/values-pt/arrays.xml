@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias">
+        <item>1 dia</item>
+        <item>7 dias</item>
+        <item>15 dias</item>
+        <item>30 dias</item>
+    </string-array>
+    <string-array name="idades">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="locale_names">
+        <item>Inglês, US</item>
+        <item>Alemão, Alemanha</item>
+        <item>Chinês, PRC</item>
+        <item>Chinês, Taiwan</item>
+        <item>Tcheco, República Tcheca</item>
+        <item>Holandês, Bélgica</item>
+        <item>Holandês, Países Baixos</item>
+        <item>Inglês, Austrália</item>
+        <item>Inglês, Grã-Bretanha</item>
+        <item>Inglês, Canadá</item>
+        <item>Inglês, Nova Zelândia</item>
+        <item>Inglês, Singapura</item>
+        <item>Francês, Bélgica</item>
+        <item>Francês, Canadá</item>
+        <item>Francês, França</item>
+        <item>Francês, Suíça</item>
+        <item>Alemão, Áustria</item>
+        <item>Alemão, Liechtenstein</item>
+        <item>Alemão, Suíça</item>
+        <item>Italiano, Itália</item>
+        <item>Italiano, Suíça</item>
+        <item>Japonês</item>
+        <item>Coreano</item>
+        <item>Polonês</item>
+        <item>Russo</item>
+        <item>Sspanhol</item>
+        <item>Árabe, Egito</item>
+        <item>Árabe, Israel</item>
+        <item>Búlgaro, Bulgária</item>
+        <item>Catalão, Espanha</item>
+        <item>Croata, Croácia</item>
+        <item>Dinamarquês, Dinamarca</item>
+        <item>Inglês, Índia</item>
+        <item>Inglês, Irlanda</item>
+        <item>Inglês, Zimbabwe</item>
+        <item>Finlandês, Finlândia</item>
+        <item>Grego, Grécia</item>
+        <item>Hebraico, Israel</item>
+        <item>Hindi, Índia</item>
+        <item>Húngaro, Hungria</item>
+        <item>Indonésio, Indonésia</item>
+        <item>Letão, Latvia</item>
+        <item>Lituano, Lituânia</item>
+        <item>Norueguês-Bokmol, Noruega</item>
+        <item>Português, Brasil</item>
+        <item>Português, Portugal</item>
+        <item>Romeno, Romênia</item>
+        <item>Sérvio</item>
+        <item>Eslovaco, Eslováquia</item>
+        <item>Eslovena, Eslovénia</item>
+        <item>Espanhol, US</item>
+        <item>Sueco, Suécia</item>
+        <item>Tagalog, Filipinas</item>
+        <item>Tailandês, Tailândia</item>
+        <item>Turco, Turquia</item>
+        <item>Ucraniano, Ucrânia</item>
+        <item>Vietnamita, Vietnã</item>
+    </string-array>
+    <string-array name="locale_values">
+        <item>en_US</item>
+        <item>de_DE</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>cs_CZ</item>
+        <item>nl_BE</item>
+        <item>nl_NL</item>
+        <item>en_AU</item>
+        <item>en_GB</item>
+        <item>en_CA</item>
+        <item>en_NZ</item>
+        <item>en_SG</item>
+        <item>fr_BE</item>
+        <item>fr_CA</item>
+        <item>fr_FR</item>
+        <item>fr_CH</item>
+        <item>de_AT</item>
+        <item>de_LI</item>
+        <item>de_CH</item>
+        <item>it_IT</item>
+        <item>it_CH</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>pl_PL</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>ar_EG</item>
+        <item>ar_IL</item>
+        <item>bg_BG</item>
+        <item>ca_ES</item>
+        <item>hr_HR</item>
+        <item>da_DK</item>
+        <item>en_IN</item>
+        <item>en_IE</item>
+        <item>en_ZA</item>
+        <item>fi_FI</item>
+        <item>el_GR</item>
+        <item>iw_IL</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>lv_LV</item>
+        <item>lt_LT</item>
+        <item>nb_NO</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro_RO</item>
+        <item>sr_RS</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>es_US</item>
+        <item>sv_SE</item>
+        <item>tl_PH</item>
+        <item>th_TH</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+        <item>vi_VN</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Escuro</item>
+        <item>Claro</item>
+        <item>Padrão do Sistema</item>
+    </string-array>
+</resources>

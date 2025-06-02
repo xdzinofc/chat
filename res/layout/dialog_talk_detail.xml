@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="24.0sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/talk_details"
+        android:textAlignment="center" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile" />
+    <TextView
+        android:id="@id/talk_detail_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nick"
+        android:textIsSelectable="true" />
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_talk" />
+    <TextView
+        android:id="@id/talk_detail_id_talk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_talk"
+        android:textIsSelectable="true" />
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_profile" />
+    <TextView
+        android:id="@id/talk_detail_id_profile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_profile"
+        android:textIsSelectable="true" />
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_profile2" />
+    <TextView
+        android:id="@id/talk_detail_id_profile2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_profile"
+        android:textIsSelectable="true" />
+    <TextView
+        android:textStyle="bold"
+        android:paddingTop="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_updated" />
+    <TextView
+        android:id="@id/talk_detail_last_updated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_updated"
+        android:textIsSelectable="true" />
+</LinearLayout>
